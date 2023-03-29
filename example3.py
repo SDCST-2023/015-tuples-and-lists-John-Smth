@@ -12,6 +12,7 @@ print(myList)
 print("Sorting the list using the command myList.sort()")
 myList.sort()
 print(myList)
+
 print("\n")
 dIndex = myList.index("Delta")
 dCount = myList.count("Delta")
