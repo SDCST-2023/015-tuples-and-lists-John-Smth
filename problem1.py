@@ -19,3 +19,16 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+print("People:Gary, Barry, Terry, Mary, Jerry, Cranberry")
+print("Gary, Barry, Terry, Mary, Jerry, Cranberry")
+people = ["Gary", "Barry", "Terry", "Mary", "Jerry", "Cranberry"]
+
+FW = input("Enter The Disliked Individual Please:")
+DW = input("Enter Your favourite person:")
+
+if FW in people:
+    Num = people.index(FW)
+    people.insert(Num,DW)
+    people.remove(FW)
+    print(people)
+    
